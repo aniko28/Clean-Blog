@@ -59,10 +59,13 @@ body{
 
 .header{
     background: url("unnamed.jpg") center center no-repeat;
-    width: 1366px;
     height: 427px;
     margin-bottom: 50px;
     background-size: cover;
+}
+
+.header .content {
+    text-align: center;
 }
 
 .header h1  {
@@ -89,7 +92,7 @@ li{
 .small{
     font-weight: 300;
     width: 110px;
-    margin: -75px 660px 0;
+    margin: -75px auto 0;
     border-top: 3px solid #eee;
     line-height: 20px;
 }
